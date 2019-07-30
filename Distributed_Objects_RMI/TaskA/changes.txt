@@ -1,0 +1,15 @@
+#Removed Server File
+#Added main to all services
+#Created Infrastructure Package
+#Client stays the same simply getting quotes and printing them
+#LocalBroker now main file to start
+#Added command line arguments to Local Broker, and all services
+#This is so it does not neccessarily have to run on localhost/1099
+#If no commands given, runs on localhost and 1099
+#Removed Service Registry and Service File
+#All Services have a main method
+#This is so each service can bind their service to the registry
+#First lookup with getRegistry, then use registry.bind to put up their service
+#Client now only require Broker to run
+#Each service can be deployed individually, in any order
+

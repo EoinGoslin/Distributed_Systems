@@ -1,0 +1,10 @@
+#Infrastructure now class that starts the application
+#No Server File anymore
+
+#Run Infrastructure class - This creates registry
+
+#Then run LocalBroker
+
+#Then any of the services in any order (e.g. DDQ first then GPQ) or all of the three services
+
+#Then run Client and will get quote back on just the services that were ran

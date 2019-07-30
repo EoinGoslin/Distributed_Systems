@@ -1,0 +1,2 @@
+#Run Main
+#Will then print all quotes from all services that broker has connected to. 

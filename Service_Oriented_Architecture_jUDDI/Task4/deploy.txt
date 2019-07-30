@@ -1,0 +1,58 @@
+1. Initial Configurations - donwload jUDDI distro 3.5.5 and jUDDI client distro 3.5.5
+Link can be found here: http://archive.apache.org/dist/juddi/juddi/3.3.5/
+
+I had to use a different distro so included that in the folder
+I also had to run the startup.sh with the following command as would not work on my system.
+
+Step1: cd into juddi-distro-3.5.5 folder
+Step2: cd into juddi-tomcat-3.5.5
+Step3: cd into bin
+Step4: ./startup.sh
+
+--------------------
+	or
+--------------------
+	
+JRE_HOME=/usr ./startup.sh
+
+
+/*
+***JRE_HOME=/usr ./startup.sh
+*/
+This command starts tomcat server.
+
+/*
+*However, 
+****"./startup.sh" works on most computers straight away.
+*/
+
+If still does not work, I had to show my tomcat where my JDK was by adding a line into the bashRC file which exported its path. My path was this:
+
+export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-amd64
+
+I placed this line at the bottom of the bashRC file.
+
+
+
+2. Running Solution - OPEN BASICQUOTESERVICE AS A PROJECT in Eclipse
+
+Step1 - Adding Jar files if not automactically present in project
+
+i)Open Eclipse or whatever IDE and open BasicQuoteService in Task4 as a project
+ii) right click on BasicQuoteService
+iii)Click Properties
+iv)Select Java Build Path
+v)Go to libraries
+vi)Highlight all and click Add Jars
+
+I downloaded these Jar files so org.apache imports would work
+
+
+Step2:
+As services will not be jUDDI initially, Each service can be run independantly to create them
+
+Step1. Run all four services - No duplicate Business will be created
+Step2. Run Run Client
+
+
+

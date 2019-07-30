@@ -1,0 +1,77 @@
+Manifest-Version: 1.0
+Export-Package: org.apache.cxf.binding.soap;version="2.7.18",org.apach
+ e.cxf.binding.soap.blueprint;version="2.7.18",org.apache.cxf.binding.
+ soap.interceptor;version="2.7.18",org.apache.cxf.binding.soap.jms.int
+ erceptor;version="2.7.18",org.apache.cxf.binding.soap.model;version="
+ 2.7.18",org.apache.cxf.binding.soap.saaj;version="2.7.18",org.apache.
+ cxf.binding.soap.spring;version="2.7.18",org.apache.cxf.binding.soap.
+ tcp;version="2.7.18",org.apache.cxf.binding.soap.tcp.frames;version="
+ 2.7.18",org.apache.cxf.binding.soap.wsdl.extensions;version="2.7.18",
+ org.apache.cxf.binding.soap.wsdl11;version="2.7.18"
+Bundle-ActivationPolicy: lazy
+Implementation-Title: Apache CXF Runtime SOAP Binding
+Built-By: dkulp
+Tool: Bnd-2.1.0.20130426-122213
+Export-Service: org.apache.aries.blueprint.NamespaceHandler;osgi.servi
+ ce.blueprint.namespace="http://cxf.apache.org/blueprint/bindings/soap
+ "
+Implementation-Vendor: The Apache Software Foundation
+Implementation-Vendor-Id: org.apache
+Specification-Title: Apache CXF Runtime SOAP Binding
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-SymbolicName: org.apache.cxf.cxf-rt-bindings-soap
+Implementation-Version: 2.7.18
+Specification-Vendor: The Apache Software Foundation
+Bundle-Name: Apache CXF Runtime SOAP Binding
+Created-By: Apache Maven Bundle Plugin
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Blueprint: OSGI-INF/blueprint/soap-binding.xml
+Build-Jdk: 1.7.0_71
+Bundle-Version: 2.7.18
+Bnd-LastModified: 1446225620233
+Bundle-ManifestVersion: 2
+Bundle-Description: Apache CXF Runtime SOAP Binding
+Import-Package: org.apache.aries.blueprint;version="[0.3,2)";resolutio
+ n:=optional,org.apache.aries.blueprint.mutable;version="[0.3,2)";reso
+ lution:=optional,org.springframework.beans;resolution:=optional;versi
+ on="[2.5,4)",org.springframework.beans.factory.xml;resolution:=option
+ al;version="[2.5,4)",javax.activation,javax.annotation,javax.jws.soap
+ ,javax.wsdl,javax.wsdl.extensions,javax.wsdl.extensions.mime,javax.ws
+ dl.extensions.soap,javax.wsdl.extensions.soap12,javax.wsdl.factory,ja
+ vax.xml.bind.annotation,javax.xml.namespace,javax.xml.soap,javax.xml.
+ stream,javax.xml.stream.events,javax.xml.transform,javax.xml.transfor
+ m.dom,javax.xml.validation,javax.xml.xpath,org.apache.cxf;version="[2
+ .7,3)",org.apache.cxf.annotations;version="[2.7,3)",org.apache.cxf.at
+ tachment;version="[2.7,3)",org.apache.cxf.binding;version="[2.7,3)",o
+ rg.apache.cxf.common;version="[2.7,3)",org.apache.cxf.common.i18n;ver
+ sion="[2.7,3)",org.apache.cxf.common.injection;version="[2.7,3)",org.
+ apache.cxf.common.logging;version="[2.7,3)",org.apache.cxf.common.uti
+ l;version="[2.7,3)",org.apache.cxf.common.xmlschema;version="[2.7,3)"
+ ,org.apache.cxf.configuration;version="[2.7,3)",org.apache.cxf.config
+ uration.blueprint;version="[2.7,3)",org.apache.cxf.configuration.spri
+ ng;version="[2.7,3)",org.apache.cxf.databinding;version="[2.7,3)",org
+ .apache.cxf.endpoint;version="[2.7,3)",org.apache.cxf.headers;version
+ ="[2.7,3)",org.apache.cxf.helpers;version="[2.7,3)",org.apache.cxf.in
+ terceptor;version="[2.7,3)",org.apache.cxf.io;version="[2.7,3)",org.a
+ pache.cxf.message;version="[2.7,3)",org.apache.cxf.phase;version="[2.
+ 7,3)",org.apache.cxf.service;version="[2.7,3)",org.apache.cxf.service
+ .model;version="[2.7,3)",org.apache.cxf.staxutils;version="[2.7,3)",o
+ rg.apache.cxf.transport;version="[2.7,3)",org.apache.cxf.ws.addressin
+ g;version="[2.7,3)",org.apache.cxf.wsdl;version="[2.7,3)",org.apache.
+ cxf.wsdl11;version="[2.7,3)",org.apache.mina.core.buffer;version="[2.
+ 0,3)";resolution:=optional,org.apache.mina.core.filterchain;version="
+ [2.0,3)";resolution:=optional,org.apache.mina.core.future;version="[2
+ .0,3)";resolution:=optional,org.apache.mina.core.service;version="[2.
+ 0,3)";resolution:=optional,org.apache.mina.core.session;version="[2.0
+ ,3)";resolution:=optional,org.apache.mina.filter.codec;version="[2.0,
+ 3)";resolution:=optional,org.apache.mina.filter.logging;version="[2.0
+ ,3)";resolution:=optional,org.apache.mina.transport.socket.nio;versio
+ n="[2.0,3)";resolution:=optional,org.apache.ws.commons.schema;version
+ ="[2.1,3)",org.osgi.service.blueprint;version="[1.0.0,2.0.0)";resolut
+ ion:=optional,org.osgi.service.blueprint.container;version="[1.0,2)";
+ resolution:=optional,org.osgi.service.blueprint.reflect;version="[1.0
+ ,2)";resolution:=optional,org.w3c.dom,org.xml.sax
+Bundle-DocURL: http://cxf.apache.org
+Specification-Version: 2.7.18
+Archiver-Version: Plexus Archiver
+
